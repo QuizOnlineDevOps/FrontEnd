@@ -1,0 +1,1 @@
+export const apiNode = 'http://localhost:3000';

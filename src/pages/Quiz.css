@@ -1,0 +1,17 @@
+
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#E85C0D, #000000);
+}
+.container .Benar{
+    background: #99e88d;
+    border-color: #00d397;
+    border-width: 1.5px;
+    color: #0c76bd;
+}
+.container .Salah{
+    background: #ffebeb;
+    border-color: #ff4a4a;
+    border-width: 1.5px;
+}

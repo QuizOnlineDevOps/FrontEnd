@@ -1,0 +1,45 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  h1, h2 {
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .question-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input.form-control {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .card-title {
+    color: #28a745;
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+  }
+  
+
+  .hover-grow:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
