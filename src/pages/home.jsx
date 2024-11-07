@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <div className="container text-center w-100 h-100 d-flex flex-column justify-content-center align-items-center" >
             <div className="pt-5">
-                <h1>QuizOnline untuk UTS</h1>
+                <h1>QuizOnline</h1>
                 <div className="mt-4 d-flex flex-column justify-content-center align-items-center">
                     <div className="d-flex flex-row">
                         <button className="btn text-nowrap btn-secondary mx-2" onClick={handleDoQuizClick}>Do Quiz</button>

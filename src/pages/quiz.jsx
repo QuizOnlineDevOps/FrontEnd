@@ -123,9 +123,9 @@ const Quiz = () => {
         <div className="pt-5">
 
             <div className="container mt-5 p-4 w-50" style={{ color: 'white', borderRadius: '10px', background: 'rgba(0, 0, 0, 0.7)' }}>
-                <h1 className="text-center mb-4">Buat Quiz</h1>
+                <h1 className="text-center mb-4 text-light">Do Quiz</h1>
                 <hr />
-                <h2>{index + 1}. {question.soal}</h2>
+                <h2 className="text-light">{index + 1}. {question.soal}</h2>
                 <ul className="list-group">
                     {question.pilihan.map((option, i) => (
                         <li
