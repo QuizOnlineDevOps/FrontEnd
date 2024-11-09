@@ -49,6 +49,12 @@ const QuizForm = () => {
       await axios.post(`${apiNode}/bankSoal/addSoal`, { quizTitle, questions })
       .then((res) => {
         console.log(res);
+        Swal.fire({
+          icon: 'success',
+          title: 'Success',
+          text: 'Quiz has been added',
+        });
+        window.location.href = '/';
       })
     }
     else{
